@@ -26,7 +26,7 @@ public class Board {
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE,generator = "JPABOARD_SEQ_GEN")
 	@Column(name = "NO")
-	private long No;
+	private long no;
 	@Column(name = "TITLE")
 	private String title;
 	@Column(name = "CONTENT")
