@@ -18,8 +18,13 @@ import lombok.extern.slf4j.Slf4j;
 @Controller
 @RequestMapping("/board")
 public class BoardController {
+	
+	
+	
    @Autowired
    private BoardService boardService;
+   
+   
 
    @GetMapping("/insertForm")
    public String boardInsertForm(Model model) {
